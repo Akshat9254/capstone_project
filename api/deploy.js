@@ -3,7 +3,7 @@ const { Web3 } = require("web3");
 // Loading the contract ABI and Bytecode
 // (the results of a previous compilation step)
 const fs = require("fs");
-const { abi, bytecode } = JSON.parse(fs.readFileSync("V3.json"));
+const { abi, bytecode } = JSON.parse(fs.readFileSync("PharmaSupplyChain.json"));
 
 async function main() {
   // Configuring the connection to an Ethereum node
