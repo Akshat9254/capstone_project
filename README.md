@@ -13,26 +13,34 @@ Make sure you have the following installed:
 
 1. **Clone the repository:**
 
-2. **Navigate to the `api` directory:**
+2. **Install Arduino IDE:**
+
+3. **Upload the Code in dht-11-sensor into the dht-11 from arduino IDE:**
+    
+    Make sure to update the <Network-Name> and <Network-password> to the network to which you are connected.
+
+4. **Run the Dht-11-sensor by plugging in the power:**
+
+5. **Navigate to the `api` directory:**
 
    ```bash
    cd api
    ```
 
-3. **Install dependencies and run the Express app:**
+6. **Install dependencies and run the Express app:**
 
    ```bash
    npm install
    node app.js
    ```
 
-4. **Open a new terminal and navigate to the `ui` directory:**
+7. **Open a new terminal and navigate to the `ui` directory:**
 
    ```bash
    cd ../ui
    ```
 
-5. **Install dependencies and start the Expo development server:**
+8. **Install dependencies and start the Expo development server:**
    ```bash
    npm install
    npx expo start
